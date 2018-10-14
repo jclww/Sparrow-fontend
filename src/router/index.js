@@ -38,6 +38,15 @@ export default new Router({
         component: () =>
           import('@/views/MyBlog')
       }]
+    },
+    {
+      path: '',
+      component: Layout,
+      children: [{
+        path: 'file',
+        component: () =>
+          import('@/views/FileUpload')
+      }]
     }
   ]
 })

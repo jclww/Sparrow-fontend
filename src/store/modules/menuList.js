@@ -9,6 +9,12 @@ export const menuRouterList = [{
     name: '我的博客',
     hasChild: false,
     selected: false
+  },
+  {
+    path: '/file',
+    name: '文件上传',
+    hasChild: false,
+    selected: false
   }
 ]
 
