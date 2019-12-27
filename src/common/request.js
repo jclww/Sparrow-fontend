@@ -1,9 +1,9 @@
 import axios from 'axios';
 
-const domainMap = window._global.url;
-// const domainMap = {
-//     server_url : "http://localhost:8089",
-//   }
+// const domainMap = window._global.url;
+const domainMap = {
+    server_url : "https://www.qnnnd.cn/",
+  }
 
 function checkStatus(response) {
   if (response.status >= 200 && response.status < 300) {
