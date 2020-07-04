@@ -74,6 +74,42 @@ export default new Router({
       component: () =>
         import('@/views/catalog')
     }]
+  },
+  {
+    path: '',
+    component: Layout,
+    children: [{
+      path: 'video',
+      component: () =>
+        import('@/views/video')
+    }]
+  },
+  {
+    path: '',
+    component: Layout,
+    children: [{
+      path: 'video_detail',
+      component: () =>
+        import('@/views/video_detail')
+    }]
+  },
+  {
+    path: '',
+    component: Layout,
+    children: [{
+      path: 'blue_video',
+      component: () =>
+        import('@/views/blue_video')
+    }]
+  },
+  {
+    path: '',
+    component: Layout,
+    children: [{
+      path: 'blue_video_detail',
+      component: () =>
+        import('@/views/blue_video_detail')
+    }]
   }
   ]
 })

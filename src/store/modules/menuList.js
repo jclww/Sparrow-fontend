@@ -3,6 +3,11 @@ export const menuRouterList = [{
   name: '小说查询',
   hasChild: false,
   selected: true
+},{
+  path: '/video',
+  name: '我的视频',
+  hasChild: false,
+  selected: false
 }
 // },{
 //   path: '/myNote',
