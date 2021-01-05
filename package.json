@@ -15,7 +15,7 @@
     "webpack-prod": "node node_modules/.bin/webpack --config build/webpack.prod.conf.js"
   },
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "element-ui": "^2.4.8",
     "video.js": "^7.6.6",
     "vue": "^2.5.2",
